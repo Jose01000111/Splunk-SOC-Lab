@@ -25,12 +25,12 @@ This repository documents the creation of a **Splunk Enterprise Security (ES)** 
 
 | Phase | Link |
 |-------|------|
-| Ⅰ️⃣ Phase I — Environment Setup 🧱 | [Go to Phase I](./Phase-I/README.md) |
+| 🚀 Phase I — Environment Setup 🧱 | [Go to Phase I](./Phase-I/README.md) |
 
 
 ---
 
-### Ⅰ️⃣ Phase I — Environment Setup 🧱  
+### 🚀 Phase I — Environment Setup 🧱  
 - Prepare both Ubuntu VMs (update, upgrade, clean unnecessary packages)  
 - Create project folders for lab files and logs  
 - Gather system info (OS version, IPs, hostname)  
