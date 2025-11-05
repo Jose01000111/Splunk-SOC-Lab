@@ -1,4 +1,4 @@
-# ⚡ Home SIEM for SOC Lab 🧠
+# ⚡ Splunk Security Operations Lab 🧠
 
 <img width="400" height="186" alt="rmIiKm1" src="https://github.com/user-attachments/assets/ff0bd4cc-3f16-4162-bda8-becb0283bbe3" />
 
