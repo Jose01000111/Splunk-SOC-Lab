@@ -37,6 +37,8 @@ This repository documents the creation of a **Splunk Enterprise Security (ES)** 
 #### ⏩ Prepare both Ubuntu VMs
 #### 📝 Update, upgrade, and remove unnecessary packages  
 
+---
+
 #### ⏩ Create project folders for lab files and logs
 #### 📝 Organize directories for lab files and log storage 
 
@@ -44,10 +46,14 @@ This repository documents the creation of a **Splunk Enterprise Security (ES)** 
 
 <img width="444" height="136" alt="YtlKJLv" src="https://github.com/user-attachments/assets/a95d3401-b3b8-4291-b73b-0ffb622dc7e7" />
 
+---
+
 #### ⏩ Gather system info
 #### 📝 Check OS version, record IP addresses, and hostname  
 
 <img width="822" height="683" alt="a9uVLYh" src="https://github.com/user-attachments/assets/7157bf31-8058-4054-a925-fadf367a01d6" />
+
+---
 
 #### ⏩ Test Connection
 #### 📝 Verify that the endpoint VM can reach the Splunk server and that network connectivity is working
