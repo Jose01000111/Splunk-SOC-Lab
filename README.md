@@ -27,7 +27,7 @@ This repository documents the creation of a **Splunk Enterprise Security (ES)** 
 
 | Phase | 
 |-------|
-| 🚀 Phase I — Environment Setup 🧱 |
+| [🚀 Phase I — Environment Setup 🧱](https://github.com/Jose01000111/SplunkES-Phase-1.git) |
 
 
 ---
