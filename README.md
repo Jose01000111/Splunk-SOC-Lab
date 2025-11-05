@@ -23,9 +23,9 @@ This repository documents the creation of a **Splunk Enterprise Security (ES)** 
 
 # 🗂️ Lab Directory
 
-| Phase | Link |
-|-------|------|
-| 🚀 Phase I — Environment Setup 🧱 | [Go to Phase I](./Phase-I/README.md) |
+| Phase | 
+|-------|
+| 🚀 Phase I — Environment Setup 🧱 |
 
 
 ---
