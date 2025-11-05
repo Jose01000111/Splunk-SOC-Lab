@@ -58,9 +58,3 @@ This repository documents the creation of a **Splunk Enterprise Security (ES)** 
 
 <img width="626" height="332" alt="2uwHF5S" src="https://github.com/user-attachments/assets/0c8c4a4f-f802-43eb-9e84-5a2d9e1df679" />
 
-
-
-
-
-
-<img width="664" height="335" alt="RiIvs4B" src="https://github.com/user-attachments/assets/b620e6f9-b09d-4027-b03a-c57b71acfd90" />
