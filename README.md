@@ -14,6 +14,7 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 - Practice **SOC workflows**, including alert triage and data visualization  
 - Document the process for **continuous learning and reference**  
 - Maintain a **step-by-step journal** of lab activities for GitHub  
+- Troubleshoot **disk space issues** and learn operational problem-solving in Splunk  
 
 ---
 
@@ -31,7 +32,10 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 | Phase | 
 |-------|
 | [🚀 Phase I — Environment Setup 🧱](https://github.com/Jose01000111/SplunkES-Phase-1.git) |
-|[🚀 Phase II — Splunk Installation](https://github.com/Jose01000111/Phase-II-Splunk-Installation.git)|
+| [🚀 Phase II — Splunk Installation 🧩](https://github.com/Jose01000111/Phase-II-Splunk-Installation.git) |
+| [🚀 Phase III — GUI Exploration & Disk Space Troubleshooting](https://github.com/Jose01000111/Phase-III-GUI-Exploration-Disk-Space-Troubleshooting-Splunk-Server-Issue-.git) |
+
+---
 
 ## 📝 Lab Progress Overview
 - **Phase I — Environment Setup 🧱**  
@@ -45,6 +49,23 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
   - Configured firewall and opened required ports (8000, 8089)  
   - Created admin credentials and verified web access  
   - Verified Splunk service and indexes  
+
+- **Phase III — GUI Exploration & Disk Space Troubleshooting 🛠️**  
+  - Attempted to explore the Splunk GUI but indexing was blocked due to low disk space  
+  - Observed that the server only had 4GB free, below the 5GB minimum required  
+  - Checked server disk usage and identified temporary files and large logs as potential space sources  
+  - Removed temporary dispatch files 🧹, cleared system caches 🗑️, and moved large logs to a backup folder 📂  
+  - Verified free space after cleanup but indexing did not fully resume  
+  - Determined that the underlying VM disk size was insufficient and needed to be resized for proper functionality 💻  
+
+---
+
+## ⏩ Summary & ✅ Notes
+📌 Key Takeaways from Phase III — Part 1:  
+📝 Disk space issues can prevent indexing and block GUI exploration  
+📝 File-level cleanup may free some space but may not fully resolve issues if VM storage is limited  
+📝 Infrastructure adjustments, like resizing the VM, are sometimes required for persistent operational problems  
+📝 Part 2 will focus on expanding VM storage, restarting Splunk, and finally enabling GUI exploration 🚀  
 
 ---
 
