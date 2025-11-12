@@ -33,8 +33,9 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 |-------|
 | [🚀 Phase I — Environment Setup 🧱](https://github.com/Jose01000111/SplunkES-Phase-1.git) |
 | [🚀 Phase II — Splunk Installation 🧩](https://github.com/Jose01000111/Phase-II-Splunk-Installation.git) |
-| [🚀 Phase III — GUI Exploration & Disk Space Troubleshooting](https://github.com/Jose01000111/Phase-III-GUI-Exploration-Disk-Space-Troubleshooting-Splunk-Server-Issue-.git) | 
-| [🚀 Phase III.V — Rebuild Endpoint/Server Connection](https://github.com/Jose01000111/Phase-III.V-Rebuild-Endpoint-Connection.git) |
+| [🚀 Phase III — GUI Exploration & Disk Space Troubleshooting 🛠️](https://github.com/Jose01000111/Phase-III-GUI-Exploration-Disk-Space-Troubleshooting-Splunk-Server-Issue-.git) | 
+| [🚀 Phase III.V — Rebuild Endpoint/Server Connection 🔄](https://github.com/Jose01000111/Phase-III.V-Rebuild-Endpoint-Connection.git) |
+| [🚀 Phase IV — GUI Discovery 🔑](https://github.com/Jose01000111/Phase-IV-Splunk-GUI-Discovery.git) |
 
 ---
 
@@ -59,14 +60,19 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
   - Verified free space after cleanup but indexing did not fully resume  
   - Determined that the underlying VM disk size was insufficient and needed to be resized for proper functionality 💻  
 
+- **Phase IV — GUI Discovery 🔑**  
+  - Explored the Splunk dashboard, default panels, and menus 🖥️  
+  - Reviewed default indexes `_internal`, `_audit`, `_introspection` 📂  
+  - Navigated menus including **Search & Reporting**, **Settings**, and **Apps** 🧭  
+
 ---
 
 ## ⏩ Summary & ✅ Notes
-📌 Key Takeaways from Phase III — Part 1:  
-📝 Disk space issues can prevent indexing and block GUI exploration  
-📝 File-level cleanup may free some space but may not fully resolve issues if VM storage is limited  
-📝 Infrastructure adjustments, like resizing the VM, are sometimes required for persistent operational problems  
-📝 Part 2 will focus on expanding VM storage, restarting Splunk, and finally enabling GUI exploration 🚀  
+📌 Key Takeaways from Phase III & IV:  
+- Disk space issues can block indexing and GUI exploration; cleanup helps, but VM resizing is sometimes required 💻  
+- Hands-on GUI exploration is a fast way to become comfortable with Splunk’s interface 🖥️  
+- Documenting dashboards, indexes, menus, and alerts creates a helpful glossary for future labs 📂  
+- Even “easy” labs help build intuitive understanding of Splunk workflows ⚡  
 
 ---
 
@@ -76,6 +82,5 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 - Firewall ports must be open: **8000 (web)** and **8089 (management)**  
 - If admin password is forgotten or no users exist, follow the troubleshooting steps in Phase II  
 
----
 
 
