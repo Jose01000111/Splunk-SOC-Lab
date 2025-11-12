@@ -33,7 +33,8 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 |-------|
 | [🚀 Phase I — Environment Setup 🧱](https://github.com/Jose01000111/SplunkES-Phase-1.git) |
 | [🚀 Phase II — Splunk Installation 🧩](https://github.com/Jose01000111/Phase-II-Splunk-Installation.git) |
-| [🚀 Phase III — GUI Exploration & Disk Space Troubleshooting](https://github.com/Jose01000111/Phase-III-GUI-Exploration-Disk-Space-Troubleshooting-Splunk-Server-Issue-.git) |
+| [🚀 Phase III — GUI Exploration & Disk Space Troubleshooting](https://github.com/Jose01000111/Phase-III-GUI-Exploration-Disk-Space-Troubleshooting-Splunk-Server-Issue-.git) | 
+| [Phase III.V — Rebuild Endpoint/Server Connection](https://github.com/Jose01000111/Phase-III.V-Rebuild-Endpoint-Connection.git) |
 
 ---
 
