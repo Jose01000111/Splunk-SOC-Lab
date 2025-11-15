@@ -40,7 +40,7 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 | [🚀 Phase III.V — Rebuild Endpoint/Server Connection 🔄](https://github.com/Jose01000111/Phase-III.V-Rebuild-Endpoint-Connection.git) |
 | [🚀 Phase IV — GUI Discovery 🔑](https://github.com/Jose01000111/Phase-IV-Splunk-GUI-Discovery.git) |
 | [🚀 Phase VI — Docker-Based Splunk SOC Lab 🐳](https://github.com/Jose01000111/Docker-Based-Splunk-SOC-Lab-.git) |
-| [🚀 Phase VII — Windows 11 + Sysmon + Suricata ⚡](https://github.com/Jose01000111/Phase-VII-Splunk-SOC-Lab.git) |
+| [🚀 Phase VII — Windows 11 + Sysmon + Suricata ⚡](https://github.com/Jose01000111/Export-and-Ingest-Sysmon-Logs-into-Splunk.git) |
 
 ---
 
