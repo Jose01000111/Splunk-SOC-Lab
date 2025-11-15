@@ -26,6 +26,7 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 | Endpoint       | Ubuntu VM / Windows Host                  | Generates logs for ingestion. On Windows, logs are created and copied into the Docker container, simulating endpoint → SOC workflow. |
 | Network        | Virtual Network / Host-only / NAT / Docker port mapping | Ensures connectivity between endpoint, host, and container. Ports 8000 (Web) and 9997 (Forwarder) are mapped from Docker container to Windows host for Splunk access and data ingestion. |
 | Tools / Tech   | Docker Desktop, WSL2, Splunk Enterprise container image | Docker + WSL2 allows lightweight SOC lab setup. Tools let me experiment with log ingestion, searches, and dashboards without VM setup time. Keeps the lab environment flexible and disposable. |
+| Security Tools | **Phase VII — Sysmon & Suricata** on Windows 11 Host | Captures Windows event logs and network traffic. Sysmon collects endpoint events; Suricata captures network traffic. Logs are exported/imported into Docker Splunk for analysis while keeping Windows host clean. |
 
 ---
 
@@ -39,6 +40,7 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 | [🚀 Phase III.V — Rebuild Endpoint/Server Connection 🔄](https://github.com/Jose01000111/Phase-III.V-Rebuild-Endpoint-Connection.git) |
 | [🚀 Phase IV — GUI Discovery 🔑](https://github.com/Jose01000111/Phase-IV-Splunk-GUI-Discovery.git) |
 | [🚀 Phase VI — Docker-Based Splunk SOC Lab 🐳](https://github.com/Jose01000111/Docker-Based-Splunk-SOC-Lab-.git) |
+| [🚀 Phase VII — Windows 11 + Sysmon + Suricata ⚡](https://github.com/Jose01000111/Phase-VII-Splunk-SOC-Lab.git) |
 
 ---
 
@@ -70,11 +72,16 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 
 - **Phase VI — Docker-Based Splunk SOC Lab 🐳**  
   - Pulled Splunk Enterprise container image and ran on Windows 11 Pro x64  
-  - Containers allowed me to spin up Splunk without a full VM — felt amazing getting some movement  
+  - Containers allowed me to spin up Splunk without a full VM  
   - Mapped ports 8000 (Web) and 9997 (Forwarder) from container to host  
   - Created sample logs on Windows host and ingested into Docker-based Splunk  
   - Verified logs appeared in Splunk searches, confirming end-to-end ingestion workflow  
   - Practiced starting/stopping container and observed persistence of data  
+
+- **Phase VII — Windows 11 + Sysmon + Suricata ⚡**  
+  - Captured **Windows events** via Sysmon and **network events** via Suricata  
+  - Ingested logs into Docker Splunk while keeping Windows host clean  
+  - Practiced container isolation, log export/import, and basic network monitoring  
 
 ---
 
