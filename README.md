@@ -1,4 +1,4 @@
-# ⚡ Splunk Security Operations Lab 🧠 
+# ⚡ Splunk Security Operations Lab 🧠
 
 <img width="400" height="186" alt="rmIiKm1" src="https://github.com/user-attachments/assets/ff0bd4cc-3f16-4162-bda8-becb0283bbe3" />
 
@@ -41,6 +41,7 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 | [🚀 Phase IV — GUI Discovery 🔑](https://github.com/Jose01000111/Phase-IV-Splunk-GUI-Discovery.git) |
 | [🚀 Phase VI — Docker-Based Splunk SOC Lab 🐳](https://github.com/Jose01000111/Docker-Based-Splunk-SOC-Lab-.git) |
 | [🚀 Phase VII — Windows 11 + Sysmon + Suricata ⚡](https://github.com/Jose01000111/Export-and-Ingest-Sysmon-Logs-into-Splunk.git) |
+| [🚀 Phase VIII — Splunk Log Ingestion, SPL Analysis, and Dashboard Creation 📊](https://github.com/Jose01000111/-Phase-8-Splunk-Log-Ingestion-SPL-Analysis-and-Dashboard-Creation.git) |
 
 ---
 
@@ -83,6 +84,13 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
   - Ingested logs into Docker Splunk while keeping Windows host clean  
   - Practiced container isolation, log export/import, and basic network monitoring  
 
+- **Phase VIII — Splunk Log Ingestion, SPL Analysis, and Dashboard Creation 📊**  
+  - Copied sample log (`sample2.log`) into Docker container  
+  - Uploaded log into Splunk, set source type `syslog`, index `os_logs`  
+  - Ran SPL queries to filter events, count by host, and create time-based charts  
+  - Built a dashboard with panels for Total Logs, Top Hosts, and Log Volume Over Time  
+  - Practiced starting/stopping container and confirmed data persistence  
+
 ---
 
 ## ⏩ Summary & ✅ Notes
@@ -102,3 +110,4 @@ The lab is designed for hands-on learning in **log ingestion, alerting, and moni
 - Docker ports mapped to host: **8000 (web)**, **9997 (forwarder)**  
 - Admin password should remain private; do not include in documentation  
 - If issues arise with ingestion or container, check leftover containers and file paths  
+
