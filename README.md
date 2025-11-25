@@ -44,7 +44,7 @@ The lab is designed for hands-on learning in **log ingestion, alerting, monitori
 | [🚀 Phase VII — Windows 11 + Sysmon + Suricata ⚡](https://github.com/Jose01000111/Export-and-Ingest-Sysmon-Logs-into-Splunk.git) |
 | [🚀 Phase VIII — Splunk Log Ingestion, SPL Analysis, and Dashboard Creation 📊](https://github.com/Jose01000111/-Phase-8-Splunk-Log-Ingestion-SPL-Analysis-and-Dashboard-Creation.git) |
 | [🚀 Phase IX — Persistent Windows Firewall Logs & Field Extraction 🔥](https://github.com/Jose01000111/Splunk-SOC-Lab-with-Persistent-Windows-Firewall-Logs.git) |
-
+|[🚀 Phase X — Splunk Windows Log Ingestion Lab 🔥](https://github.com/Jose01000111/Phase-X-Splunk-Windows-Log-Ingestion-Lab.git) |
 ---
 
 ## 📝 Lab Progress Overview
