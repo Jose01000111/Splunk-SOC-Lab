@@ -44,7 +44,8 @@ The lab is designed for hands-on learning in **log ingestion, alerting, monitori
 | [🚀 Phase VII — Windows 11 + Sysmon + Suricata ⚡](https://github.com/Jose01000111/Export-and-Ingest-Sysmon-Logs-into-Splunk.git) |
 | [🚀 Phase VIII — Splunk Log Ingestion, SPL Analysis, and Dashboard Creation 📊](https://github.com/Jose01000111/-Phase-8-Splunk-Log-Ingestion-SPL-Analysis-and-Dashboard-Creation.git) |
 | [🚀 Phase IX — Persistent Windows Firewall Logs & Field Extraction 🔥](https://github.com/Jose01000111/Splunk-SOC-Lab-with-Persistent-Windows-Firewall-Logs.git) |
-|[🚀 Phase X — Splunk Windows Log Ingestion Lab 🔥](https://github.com/Jose01000111/Phase-X-Splunk-Windows-Log-Ingestion-Lab.git) |
+| [🚀 Phase X — Splunk Windows Log Ingestion Lab 🔥](https://github.com/Jose01000111/Phase-X-Splunk-Windows-Log-Ingestion-Lab.git) |
+
 ---
 
 ## 📝 Lab Progress Overview
@@ -96,6 +97,16 @@ The lab is designed for hands-on learning in **log ingestion, alerting, monitori
   - Practiced auto and manual field extraction for structured analysis  
   - Ensured data persistence across container restarts for SOC exercises  
 
+- **Phase X — Splunk Windows Log Ingestion Lab 🔥**  
+  - Created working folder `SplunkLogs` on Windows host  
+  - Exported Windows System, Security, and Application logs to folder  
+  - Verified all log files exist before ingestion  
+  - Uploaded logs into Docker Splunk with proper sourcetypes and index `win_logs`  
+  - Verified index, sourcetypes, and time range for accurate data ingestion  
+  - Ran SPL queries for Windows Security, System, Application, and Firewall logs  
+  - Practiced SOC-style queries for failed logins, successful logins, top source IPs, and activity timeline  
+  - Stopped and restarted Docker container to maintain persistent lab environment  
+
 ---
 
 ## ⏩ Summary & ✅ Notes
@@ -116,4 +127,5 @@ The lab is designed for hands-on learning in **log ingestion, alerting, monitori
 - Admin password should remain private  
 - Check leftover containers, file permissions, and paths if ingestion issues occur  
 - Firewall logs: `C:\Windows\System32\LogFiles\Firewall\pfirewall.log`  
+
 
