@@ -1,4 +1,4 @@
-# ⚡ Splunk Security Operations Lab 🧠
+[# ⚡ Splunk Security Operations Lab 🧠
 
 <img width="400" height="186" alt="rmIiKm1" src="https://github.com/user-attachments/assets/ff0bd4cc-3f16-4162-bda8-becb0283bbe3" />
 
@@ -45,6 +45,7 @@ The lab is designed for hands-on learning in **log ingestion, alerting, monitori
 | [🚀 Phase VIII — Splunk Log Ingestion, SPL Analysis, and Dashboard Creation 📊](https://github.com/Jose01000111/-Phase-8-Splunk-Log-Ingestion-SPL-Analysis-and-Dashboard-Creation.git) |
 | [🚀 Phase IX — Persistent Windows Firewall Logs & Field Extraction 🔥](https://github.com/Jose01000111/Splunk-SOC-Lab-with-Persistent-Windows-Firewall-Logs.git) |
 | [🚀 Phase X — Splunk Windows Log Ingestion Lab 🔥](https://github.com/Jose01000111/Phase-X-Splunk-Windows-Log-Ingestion-Lab.git) |
+| [🚀 Phase XI — Splunk Docker Logs Exploration & Visualization 📈](https://github.com/Jose01000111/Phase-11-Splunk-Docker-Logs-Exploration-Visualization.git) |
 
 ---
 
@@ -107,6 +108,15 @@ The lab is designed for hands-on learning in **log ingestion, alerting, monitori
   - Practiced SOC-style queries for failed logins, successful logins, top source IPs, and activity timeline  
   - Stopped and restarted Docker container to maintain persistent lab environment  
 
+- **Phase XI — Splunk Docker Logs Exploration & Visualization 📈**  
+  - Started Splunk Docker container on Windows 11 using PowerShell  
+  - Verified sample logs (`sample2.log`, `windows_firewall.log`) inside container  
+  - Uploaded logs into Splunk Web (index `main`, sourcetype `syslog`)  
+  - Created a table of recent firewall events with key fields for host, action, protocol, ports, and size  
+  - Built a bar chart of events per host for quick comparison of activity  
+  - Built a line chart of events over time by host to visualize trends  
+  - Stopped the Docker container after lab completion to maintain environment integrity  
+
 ---
 
 ## ⏩ Summary & ✅ Notes
@@ -126,6 +136,5 @@ The lab is designed for hands-on learning in **log ingestion, alerting, monitori
 - Docker ports mapped to host: **8000 (web)**, **8089 (management)**, **9997 (forwarder)**  
 - Admin password should remain private  
 - Check leftover containers, file permissions, and paths if ingestion issues occur  
-- Firewall logs: `C:\Windows\System32\LogFiles\Firewall\pfirewall.log`  
-
+- Firewall logs: `C:\Windows\System32\LogFiles\Firewall\pfirewall.log`
 
